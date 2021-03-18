@@ -162,7 +162,7 @@ namespace AADS
             this.panelTop.Controls.Add(this.controlLayout);
             this.panelTop.Controls.Add(this.iconPanel);
             this.panelTop.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelTop.Font = new System.Drawing.Font("TH SarabunPSK", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panelTop.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panelTop.Location = new System.Drawing.Point(0, 0);
             this.panelTop.Margin = new System.Windows.Forms.Padding(3, 6, 3, 6);
             this.panelTop.Name = "panelTop";
@@ -206,7 +206,7 @@ namespace AADS
             this.labelName.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(40)))), ((int)(((byte)(49)))));
             this.labelName.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(40)))), ((int)(((byte)(49)))));
             this.labelName.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.labelName.Font = new System.Drawing.Font("TH SarabunPSK", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelName.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelName.Location = new System.Drawing.Point(48, 0);
             this.labelName.Name = "labelName";
             this.labelName.Size = new System.Drawing.Size(636, 70);
@@ -249,7 +249,7 @@ namespace AADS
             "Weather Forcast"});
             this.cmbMenu.Location = new System.Drawing.Point(675, 21);
             this.cmbMenu.Name = "cmbMenu";
-            this.cmbMenu.Size = new System.Drawing.Size(280, 36);
+            this.cmbMenu.Size = new System.Drawing.Size(280, 33);
             this.cmbMenu.TabIndex = 0;
             this.cmbMenu.SelectedIndexChanged += new System.EventHandler(this.cmbMenu_SelectedIndexChanged);
             // 
@@ -345,7 +345,7 @@ namespace AADS
             // 
             this.dateTimePicker1.Location = new System.Drawing.Point(3, 71);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 35);
+            this.dateTimePicker1.Size = new System.Drawing.Size(200, 31);
             this.dateTimePicker1.TabIndex = 15;
             // 
             // iconPanel
@@ -1100,7 +1100,7 @@ namespace AADS
             this.panel5.Controls.Add(this.btnVit);
             this.panel5.Controls.Add(this.btnMarker);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel5.Font = new System.Drawing.Font("TH SarabunPSK", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel5.Location = new System.Drawing.Point(1290, 70);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(389, 616);
@@ -1109,7 +1109,7 @@ namespace AADS
             // rightPanel
             // 
             this.rightPanel.Dock = System.Windows.Forms.DockStyle.Top;
-            this.rightPanel.Font = new System.Drawing.Font("TH SarabunPSK", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rightPanel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rightPanel.Location = new System.Drawing.Point(0, 697);
             this.rightPanel.Margin = new System.Windows.Forms.Padding(5, 8, 5, 8);
             this.rightPanel.Name = "rightPanel";
@@ -1151,7 +1151,7 @@ namespace AADS
             this.panelVit.Controls.Add(this.label21);
             this.panelVit.Controls.Add(this.label20);
             this.panelVit.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelVit.Font = new System.Drawing.Font("TH SarabunPSK", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panelVit.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panelVit.Location = new System.Drawing.Point(0, 147);
             this.panelVit.Name = "panelVit";
             this.panelVit.Size = new System.Drawing.Size(389, 501);
@@ -1163,7 +1163,7 @@ namespace AADS
             this.lblVitProvince.AutoSize = true;
             this.lblVitProvince.Location = new System.Drawing.Point(171, 429);
             this.lblVitProvince.Name = "lblVitProvince";
-            this.lblVitProvince.Size = new System.Drawing.Size(60, 26);
+            this.lblVitProvince.Size = new System.Drawing.Size(84, 24);
             this.lblVitProvince.TabIndex = 17;
             this.lblVitProvince.Text = "Province";
             // 
@@ -1172,7 +1172,7 @@ namespace AADS
             this.label25.AutoSize = true;
             this.label25.Location = new System.Drawing.Point(85, 429);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(80, 26);
+            this.label25.Size = new System.Drawing.Size(114, 24);
             this.label25.TabIndex = 16;
             this.label25.Text = "Asset Type :";
             // 
@@ -1181,7 +1181,7 @@ namespace AADS
             this.rdbVitType4.AutoSize = true;
             this.rdbVitType4.Location = new System.Drawing.Point(169, 385);
             this.rdbVitType4.Name = "rdbVitType4";
-            this.rdbVitType4.Size = new System.Drawing.Size(86, 30);
+            this.rdbVitType4.Size = new System.Drawing.Size(114, 28);
             this.rdbVitType4.TabIndex = 15;
             this.rdbVitType4.TabStop = true;
             this.rdbVitType4.Text = "Economic";
@@ -1192,7 +1192,7 @@ namespace AADS
             this.rdbVitType3.AutoSize = true;
             this.rdbVitType3.Location = new System.Drawing.Point(169, 349);
             this.rdbVitType3.Name = "rdbVitType3";
-            this.rdbVitType3.Size = new System.Drawing.Size(77, 30);
+            this.rdbVitType3.Size = new System.Drawing.Size(91, 28);
             this.rdbVitType3.TabIndex = 14;
             this.rdbVitType3.TabStop = true;
             this.rdbVitType3.Text = "Political";
@@ -1203,7 +1203,7 @@ namespace AADS
             this.rdbVitType2.AutoSize = true;
             this.rdbVitType2.Location = new System.Drawing.Point(169, 313);
             this.rdbVitType2.Name = "rdbVitType2";
-            this.rdbVitType2.Size = new System.Drawing.Size(72, 30);
+            this.rdbVitType2.Size = new System.Drawing.Size(85, 28);
             this.rdbVitType2.TabIndex = 13;
             this.rdbVitType2.TabStop = true;
             this.rdbVitType2.Text = "Military";
@@ -1214,7 +1214,7 @@ namespace AADS
             this.rdbVitType1.AutoSize = true;
             this.rdbVitType1.Location = new System.Drawing.Point(169, 277);
             this.rdbVitType1.Name = "rdbVitType1";
-            this.rdbVitType1.Size = new System.Drawing.Size(107, 30);
+            this.rdbVitType1.Size = new System.Drawing.Size(144, 28);
             this.rdbVitType1.TabIndex = 12;
             this.rdbVitType1.TabStop = true;
             this.rdbVitType1.Text = "Psychological";
@@ -1225,7 +1225,7 @@ namespace AADS
             this.rdbVitMI.AutoSize = true;
             this.rdbVitMI.Location = new System.Drawing.Point(221, 86);
             this.rdbVitMI.Name = "rdbVitMI";
-            this.rdbVitMI.Size = new System.Drawing.Size(106, 30);
+            this.rdbVitMI.Size = new System.Drawing.Size(136, 28);
             this.rdbVitMI.TabIndex = 11;
             this.rdbVitMI.TabStop = true;
             this.rdbVitMI.Text = "Manual Input";
@@ -1237,7 +1237,7 @@ namespace AADS
             this.rdbVitClick2M.AutoSize = true;
             this.rdbVitClick2M.Location = new System.Drawing.Point(100, 86);
             this.rdbVitClick2M.Name = "rdbVitClick2M";
-            this.rdbVitClick2M.Size = new System.Drawing.Size(105, 30);
+            this.rdbVitClick2M.Size = new System.Drawing.Size(134, 28);
             this.rdbVitClick2M.TabIndex = 10;
             this.rdbVitClick2M.TabStop = true;
             this.rdbVitClick2M.Text = "Click to Mark";
@@ -1249,7 +1249,7 @@ namespace AADS
             this.label24.AutoSize = true;
             this.label24.Location = new System.Drawing.Point(83, 279);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(80, 26);
+            this.label24.Size = new System.Drawing.Size(114, 24);
             this.label24.TabIndex = 8;
             this.label24.Text = "Asset Type :";
             // 
@@ -1267,21 +1267,21 @@ namespace AADS
             // 
             this.txtVitLng.Location = new System.Drawing.Point(169, 226);
             this.txtVitLng.Name = "txtVitLng";
-            this.txtVitLng.Size = new System.Drawing.Size(185, 32);
+            this.txtVitLng.Size = new System.Drawing.Size(185, 29);
             this.txtVitLng.TabIndex = 6;
             // 
             // txtVitLat
             // 
             this.txtVitLat.Location = new System.Drawing.Point(169, 174);
             this.txtVitLat.Name = "txtVitLat";
-            this.txtVitLat.Size = new System.Drawing.Size(185, 32);
+            this.txtVitLat.Size = new System.Drawing.Size(185, 29);
             this.txtVitLat.TabIndex = 5;
             // 
             // txtVitName
             // 
             this.txtVitName.Location = new System.Drawing.Point(169, 122);
             this.txtVitName.Name = "txtVitName";
-            this.txtVitName.Size = new System.Drawing.Size(185, 32);
+            this.txtVitName.Size = new System.Drawing.Size(185, 29);
             this.txtVitName.TabIndex = 4;
             // 
             // label23
@@ -1289,7 +1289,7 @@ namespace AADS
             this.label23.AutoSize = true;
             this.label23.Location = new System.Drawing.Point(26, 229);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(137, 26);
+            this.label23.Size = new System.Drawing.Size(184, 24);
             this.label23.TabIndex = 3;
             this.label23.Text = "Location Longtitude :";
             // 
@@ -1298,7 +1298,7 @@ namespace AADS
             this.label22.AutoSize = true;
             this.label22.Location = new System.Drawing.Point(38, 177);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(125, 26);
+            this.label22.Size = new System.Drawing.Size(159, 24);
             this.label22.TabIndex = 2;
             this.label22.Text = "Location lattitude :";
             // 
@@ -1307,17 +1307,17 @@ namespace AADS
             this.label21.AutoSize = true;
             this.label21.Location = new System.Drawing.Point(113, 128);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(52, 26);
+            this.label21.Size = new System.Drawing.Size(71, 24);
             this.label21.TabIndex = 1;
             this.label21.Text = "Name :";
             // 
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("TH SarabunPSK", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.Location = new System.Drawing.Point(105, 51);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(217, 36);
+            this.label20.Size = new System.Drawing.Size(314, 31);
             this.label20.TabIndex = 0;
             this.label20.Text = "Vital Asset Control Panel";
             // 

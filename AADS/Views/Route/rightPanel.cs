@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using TextBox = System.Windows.Forms.TextBox;
 
 namespace AADS.Views.Route
 {
@@ -18,6 +19,7 @@ namespace AADS.Views.Route
         public string test;
         public List<string> points = new List<string>();
         private static int counter;
+        private int x = 13, y = 13;
         public bool resetCheck = false;
         public List<GMarkerGoogle> arr = new List<GMarkerGoogle>();
         public rightPanel()
@@ -48,6 +50,11 @@ namespace AADS.Views.Route
         public void setListBox()
         {
             listBox1.Items.Add("Point " + counter.ToString() + "= " + points[counter]);
+            panel1.Controls.Add(new Label { Name = "Point" + counter.ToString() , Location = new Point(x, y), AutoSize = true, Text = "Point " + counter.ToString() });
+            panel1.Controls.Add(new TextBox { Name = "Point" + counter.ToString(), Location = new Point(x+100, y), AutoSize = true, Text = points[counter] , Enabled = false });
+            //panel1.Controls.Add(new Label { Name = "Point" + counter.ToString(), Location = new Point(x, y), AutoSize = true, Text = "Point " + counter.ToString() + "= " + points[counter] });
+
+            y += 25;
             counter++;
         }
 
