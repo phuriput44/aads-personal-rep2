@@ -650,7 +650,7 @@ namespace AADS
             pointsToMark.Add(new PointLatLng(marker.Position.Lat, marker.Position.Lng));
             createRoute();
             updateMap();
-            rightPanel.points.Add(pointMarker.ToString());
+            rightPanel.points.Add(pointMarker.Lat.ToString("N6")+" / "+pointMarker.Lng.ToString("N6"));
             rightPanel.setListBox();
 
         }
@@ -772,6 +772,11 @@ namespace AADS
             }
             rightPanel.reset(true);
             pointsToMark.Clear();
+        }
+
+        private void panelVit_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

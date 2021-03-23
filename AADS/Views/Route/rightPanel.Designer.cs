@@ -30,21 +30,21 @@ namespace AADS.Views.Route
         private void InitializeComponent()
         {
             this.panel4 = new System.Windows.Forms.Panel();
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.rdbLineRouteSF = new System.Windows.Forms.RadioButton();
             this.rdbLineRouteAir = new System.Windows.Forms.RadioButton();
             this.rdbLineRouteL = new System.Windows.Forms.RadioButton();
             this.label27 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.Coordinate = new System.Windows.Forms.Label();
             this.panel4.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(49)))));
+            this.panel4.Controls.Add(this.Coordinate);
             this.panel4.Controls.Add(this.panel1);
-            this.panel4.Controls.Add(this.listBox1);
             this.panel4.Controls.Add(this.rdbLineRouteSF);
             this.panel4.Controls.Add(this.rdbLineRouteAir);
             this.panel4.Controls.Add(this.rdbLineRouteL);
@@ -57,20 +57,19 @@ namespace AADS.Views.Route
             this.panel4.Size = new System.Drawing.Size(544, 737);
             this.panel4.TabIndex = 20;
             // 
-            // listBox1
+            // panel1
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 25;
-            this.listBox1.Location = new System.Drawing.Point(39, 57);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(333, 504);
-            this.listBox1.TabIndex = 56;
+            this.panel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(84)))), ((int)(((byte)(84)))));
+            this.panel1.Location = new System.Drawing.Point(14, 62);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(515, 651);
+            this.panel1.TabIndex = 57;
             // 
             // rdbLineRouteSF
             // 
             this.rdbLineRouteSF.AutoSize = true;
-            this.rdbLineRouteSF.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.rdbLineRouteSF.Location = new System.Drawing.Point(296, 19);
+            this.rdbLineRouteSF.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(84)))), ((int)(((byte)(84)))));
+            this.rdbLineRouteSF.Location = new System.Drawing.Point(271, 27);
             this.rdbLineRouteSF.Name = "rdbLineRouteSF";
             this.rdbLineRouteSF.Size = new System.Drawing.Size(104, 29);
             this.rdbLineRouteSF.TabIndex = 20;
@@ -81,8 +80,8 @@ namespace AADS.Views.Route
             // rdbLineRouteAir
             // 
             this.rdbLineRouteAir.AutoSize = true;
-            this.rdbLineRouteAir.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.rdbLineRouteAir.Location = new System.Drawing.Point(222, 19);
+            this.rdbLineRouteAir.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(84)))), ((int)(((byte)(84)))));
+            this.rdbLineRouteAir.Location = new System.Drawing.Point(197, 27);
             this.rdbLineRouteAir.Name = "rdbLineRouteAir";
             this.rdbLineRouteAir.Size = new System.Drawing.Size(56, 29);
             this.rdbLineRouteAir.TabIndex = 19;
@@ -94,8 +93,8 @@ namespace AADS.Views.Route
             // 
             this.rdbLineRouteL.AutoSize = true;
             this.rdbLineRouteL.Checked = true;
-            this.rdbLineRouteL.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.rdbLineRouteL.Location = new System.Drawing.Point(135, 19);
+            this.rdbLineRouteL.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(84)))), ((int)(((byte)(84)))));
+            this.rdbLineRouteL.Location = new System.Drawing.Point(110, 27);
             this.rdbLineRouteL.Name = "rdbLineRouteL";
             this.rdbLineRouteL.Size = new System.Drawing.Size(78, 29);
             this.rdbLineRouteL.TabIndex = 18;
@@ -107,8 +106,8 @@ namespace AADS.Views.Route
             // label27
             // 
             this.label27.AutoSize = true;
-            this.label27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.label27.Location = new System.Drawing.Point(34, 19);
+            this.label27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(84)))), ((int)(((byte)(84)))));
+            this.label27.Location = new System.Drawing.Point(9, 27);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(128, 25);
             this.label27.TabIndex = 1;
@@ -118,19 +117,22 @@ namespace AADS.Views.Route
             // 
             this.label26.AutoSize = true;
             this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.label26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(84)))), ((int)(((byte)(84)))));
             this.label26.Location = new System.Drawing.Point(8, -4);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(249, 31);
             this.label26.TabIndex = 0;
             this.label26.Text = "Route control panel";
             // 
-            // panel1
+            // Coordinate
             // 
-            this.panel1.Location = new System.Drawing.Point(39, 57);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(333, 184);
-            this.panel1.TabIndex = 57;
+            this.Coordinate.AutoSize = true;
+            this.Coordinate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(84)))), ((int)(((byte)(84)))));
+            this.Coordinate.Location = new System.Drawing.Point(421, 29);
+            this.Coordinate.Name = "Coordinate";
+            this.Coordinate.Size = new System.Drawing.Size(108, 25);
+            this.Coordinate.TabIndex = 58;
+            this.Coordinate.Text = "Lat / Long";
             // 
             // rightPanel
             // 
@@ -152,8 +154,8 @@ namespace AADS.Views.Route
         private System.Windows.Forms.RadioButton rdbLineRouteL;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Label label26;
-        public System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.RadioButton rdbLineRouteSF;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label Coordinate;
     }
 }
